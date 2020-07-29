@@ -1,0 +1,10 @@
+﻿<Router AppAssembly="@typeof(Program).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(Layout)"/>
+    </Found>
+    <NotFound>
+        <LayoutView Layout="@typeof(Layout)">
+            <p>Sorry we are taking a drink &#x1F378; - cheers!</p>
+        </LayoutView>
+    </NotFound>
+</Router>
