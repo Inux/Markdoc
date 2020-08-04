@@ -2,7 +2,6 @@
 
 source env.sh
 
-dotnet publish -c Release $API
-dotnet publish -c Release $CLIENT
+dotnet publish -c Release $SERVER
 
 exit $?

@@ -1,0 +1,22 @@
+﻿@page "/"
+
+@using Server.Data
+@inject IMarkdownService MarkdocService
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+Topics: @Topics
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+@code {
+    private string Topics { get; set; }
+
+    protected override Task OnInitializedAsync()
+    {
+        Topics = String.Join(", ", MarkdocService.GetTopics());
+        return Task.CompletedTask;
+    }
+}
