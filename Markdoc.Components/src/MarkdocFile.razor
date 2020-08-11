@@ -10,14 +10,11 @@
     public string FilePath { get; set; } = "";
 
     private string Html { get; set; } = "";
-    
+
     protected override Task OnInitializedAsync()
     {
-        Console.WriteLine($"OnInitialized :)");
-        
         var reader = new Reader(FilePath);
         Html = reader.ToHtml();
-        Console.WriteLine($"Html: {Html}");
         return Task.CompletedTask;
     }
 }

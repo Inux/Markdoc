@@ -8,7 +8,7 @@ namespace Markdoc.Core.Markdown
     {
         private readonly string _filePath;
         private readonly Markdig.MarkdownPipeline _pipeline = new Markdig.MarkdownPipelineBuilder().UseAdvancedExtensions().Build();
-        
+
         public Reader(string filePath)
         {
             _filePath = filePath;
@@ -17,7 +17,6 @@ namespace Markdoc.Core.Markdown
         public string ToHtml()
         {
             var markdown = File.ReadAllText(_filePath);
-            Console.WriteLine($"MarkDown: {markdown}");
             return Markdig.Markdown.ToHtml(markdown, _pipeline);
         }
     }
