@@ -2,4 +2,4 @@
 
 source env.sh
 
-dotnet run --project $CLIENT
+dotnet run --project $SERVER

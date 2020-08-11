@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markdoc.Server", "Markdoc.Server\src\Markdoc.Server.csproj", "{81E1323A-62A7-4341-AE4C-B388B6CD817A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markdoc.Core", "Markdoc.Core\src\Markdoc.Core.csproj", "{4DB14C0B-2BA0-4D0E-9743-37FBF4499CBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markdoc.Components", "Markdoc.Components\src\Markdoc.Components.csproj", "{9C49C079-1E8B-46B8-8CCA-52F75E09845D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{81E1323A-62A7-4341-AE4C-B388B6CD817A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81E1323A-62A7-4341-AE4C-B388B6CD817A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81E1323A-62A7-4341-AE4C-B388B6CD817A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB14C0B-2BA0-4D0E-9743-37FBF4499CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB14C0B-2BA0-4D0E-9743-37FBF4499CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB14C0B-2BA0-4D0E-9743-37FBF4499CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB14C0B-2BA0-4D0E-9743-37FBF4499CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C49C079-1E8B-46B8-8CCA-52F75E09845D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C49C079-1E8B-46B8-8CCA-52F75E09845D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C49C079-1E8B-46B8-8CCA-52F75E09845D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C49C079-1E8B-46B8-8CCA-52F75E09845D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
