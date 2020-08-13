@@ -2,4 +2,4 @@
 
 source env.sh
 
-dotnet build $MD
+dotnet build $MARKDOC
